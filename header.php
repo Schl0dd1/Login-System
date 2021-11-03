@@ -8,12 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav>
-        <div class="wrapper">
-            <ul>      
-                <li><a href="index.php">Home</a></li>
-                <li><a href="signup.php">Sign Up</a></li>
-                <li><a href="login.php">Log in</a></li>
-            </ul>
+        <div class="container">
+            <div id="navigation" class="flex-center flex-column">     
+                <a class="btn" href="index.php">Home</a>
+                <a class="btn" href="signup.php">Sign Up</a>
+                <a class="btn" href="login.php">Log in</a>
+            </div>
         </div>
-    </nav>
+ 

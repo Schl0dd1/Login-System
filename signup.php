@@ -1,14 +1,15 @@
 <?php include_once 'header.php';?>
 
-<section><h2>Sign Up</h2>
+<section>
 <div class="signup-form">
+<h1>Sign Up</h1>
     <form action="includes/signup.inc.php" method="post">
         <input type="text" name="name" placeholder="Full Name..."> <br>
         <input type="text" name="email" placeholder="Email"><br>
         <input type="text" name="username" placeholder="Username"><br>
         <input type="password" name="pwd" placeholder="Password"><br>
         <input type="password" name="pwdrepeat" placeholder="Repeat Password"><br>
-        <button type="submit" name="submit" > Signup!</button>
+        <button class="btn" type="submit" name="submit" > Signup!</button>
     </form>
 </div>
 
